@@ -1,0 +1,129 @@
+.active{
+    background-color: rgb(0, 163, 136);
+}
+body{
+    background-image: url("../photo/background1.png");
+    
+}
+nav{
+    background-color: #008C70;
+}
+.btn{
+    background-color: #1699A6;
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-light .navbar-brand{
+    color: #743939;
+}
+.navbar-light .navbar-brand:hover,.navbar-light .navbar-brand:focus{
+    color: #743939;
+    text-decoration: none;
+}
+.nav-item:hover{
+    background-color:#B4D9C8;
+}
+.btn:hover{
+    background-color:#B4D9C8;
+    color:black;
+}
+.mySlides{
+    display: none;
+    height: -webkit-fill-available;
+    width: 100%;
+    
+}
+.imgslide{
+    position: relative;
+    width:100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height:50%;
+}
+.picdetail{
+    text-align: center;
+    padding: 2%;
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 20%;
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.5;
+}
+.picdetail:hover{
+    position: absolute;
+    opacity: 1;
+}
+.button.left{
+    left: 0%;
+}
+.button.right{
+    right: 0%;
+}
+.button{
+    
+    border: none;
+    font-size: 20px;
+    position: absolute;
+    top: 35%;
+    width: 50px;
+    height: 100px;
+    opacity: 0.5;
+    
+}
+.topic{
+    background-color: #108A8C;
+    color: white;
+    font-family: Impact;
+    font-size: 20px;
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+}
+.info{
+    border: black solid 1px;
+    background-color: white;
+    padding: 3%;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius: 5px;
+}
+.detail{
+    
+    padding: 5%;
+    padding-top: 0;
+    
+}
+.row.info .col card{
+    padding: 0;
+}
+.more{
+    font-family: Impact;
+    background-color: white;
+    position: absolute;
+    right: 6%;
+    padding: 5px;
+}
+.fixedbutton {
+    position: fixed;
+    z-index: 2;
+    right: 2%;
+    bottom: 2%;
+    background-color:red;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.detail .row.topic p{
+    margin-top: 2%;
+}
+footer{
+    text-align: center;
+    background-color: #008C70;
+    color: white;
+    padding: 20px;
+}
